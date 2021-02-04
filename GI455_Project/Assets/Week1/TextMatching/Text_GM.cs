@@ -38,13 +38,15 @@ public class Text_GM : MonoBehaviour
         {
            
              _print   = $"[ <color=green>{inputField.GetComponent<Text>().text}</color> ] is found.";
-            _pipat.text = _print;
+            _pipat.text = _print; 
         }
         else 
         {
             _print = $"[ <color=red>{inputField.GetComponent<Text>().text}</color> ] is not found.";
             _pipat.text = _print;
         }
+
+
     }
  
 }
